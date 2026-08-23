@@ -81,7 +81,7 @@ router.post('/chat', chatLimiter, async (req, res) => {
   if (message.length > 2000) {
     return res.status(400).json({
       error: 'Message too long (max 2000 characters).',
-    });
+    })
   }
 
   // ─── API key check ──────────────────────────────────────────────────────────
