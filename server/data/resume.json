@@ -1,0 +1,11 @@
+{
+  "experience": [
+    {
+      "role": "Front-end Developer Intern",
+      "company": "Webistic.in",
+      "start": "Feb 2024",
+      "end": "May 2024",
+      "summary": "Upgraded applications to the latest React.js version, improving performance and reducing bundle size. Optimized API handling using async/await, minimizing redundant network requests and improving data fetching efficiency. Developed backend routes using Node.js and Express to support frontend data integration. Managed MongoDB collections and implemented CRUD operations for efficient data handling. Improved UI responsiveness across devices and collaborated with design and QA teams to enhance usability."
+    }
+  ]
+}

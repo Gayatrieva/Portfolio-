@@ -1,0 +1,28 @@
+{
+  "certs": [
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services",
+      "year": "2023",
+      "link": "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
+    },
+    {
+      "name": "Professional Scrum Master I (PSM I)",
+      "issuer": "Scrum.org",
+      "year": "2022",
+      "link": "https://www.scrum.org/certificates/psm-i"
+    },
+    {
+      "name": "Deep Learning Specialization",
+      "issuer": "deeplearning.ai / Coursera",
+      "year": "2022",
+      "link": "https://www.coursera.org/specializations/deep-learning"
+    },
+    {
+      "name": "PostgreSQL for Developers",
+      "issuer": "EDB Academy",
+      "year": "2021",
+      "link": "https://www.enterprisedb.com/training"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "name": "Languages",
+      "items": [
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "Python"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "items": [
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Redux Toolkit",
+        "React Query",
+        "Context API",
+        "i18next",
+        "Shadcn UI",
+        "Radix UI"
+      ]
+    },
+    {
+      "name": "Backend",
+      "items": [
+        "Node.js",
+        "Express",
+        "REST API Design"
+      ]
+    },
+    {
+      "name": "Auth & Security",
+      "items": [
+        "JWT",
+        "OAuth2",
+        "RBAC",
+        "Protected Routes"
+      ]
+    },
+    {
+      "name": "Databases & Tools",
+      "items": [
+        "MongoDB",
+        "PostgreSQL",
+        "Docker",
+        "Git",
+        "Postman",
+        "Vite",
+        "n8n"
+      ]
+    },
+    {
+      "name": "Core Concepts",
+      "items": [
+        "SPA Architecture",
+        "Component-Driven Design",
+        "Responsive Design",
+        "API Integration",
+        "State Management",
+        "Performance Optimization"
+      ]
+    }
+  ]
+}

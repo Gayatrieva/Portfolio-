@@ -1,0 +1,18 @@
+{
+  "degrees": [
+    {
+      "school": "Panipat Institute of Engineering and Technology",
+      "degree": "Master of Computer Applications (MCA)",
+      "year": "Aug 2024 – June 2026",
+      "gpa": "",
+      "notes": "Completed a Master of Computer Applications (MCA) with a focus on software development and modern web technologies."
+    },
+    {
+      "school": "National Post Graduate College",
+      "degree": "Bachelor of Vocational (Software Development & E-Governance)",
+      "year": "Aug 2020 – Apr 2023",
+      "gpa": "",
+      "notes": "Studied software development fundamentals, e-governance systems, and vocational IT applications."
+    }
+  ]
+}

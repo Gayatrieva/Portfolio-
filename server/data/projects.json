@@ -1,0 +1,33 @@
+{
+  "projects": [
+    {
+      "title": "TAQA Platform",
+      "description": "A modern B2B supplier management platform — designed and developed the complete frontend architecture and user interface with multilingual support (English, Arabic, Chinese) and rich interactive experiences.",
+      "stack": ["React.js", "TypeScript", "Tailwind CSS", "Redux Toolkit", "React Query", "Axios", "i18next", "Framer Motion", "Vite 6"],
+      "link": "",
+      "live": "",
+      "highlights": [
+        "Designed and developed the complete frontend architecture for a modern B2B supplier management platform using React.js, TypeScript, Tailwind CSS, Shadcn UI, and Radix UI",
+        "Built responsive and performance-optimized Single Page Application (SPA) interfaces with React 19 and Vite 6, ensuring fast rendering and reusable component architecture",
+        "Developed Admin and User dashboards with structured navigation, analytics views, supplier management modules, authentication workflows, and payment-related interfaces",
+        "Implemented multilingual localization support using i18next with English, Arabic, and Chinese translations across the entire platform",
+        "Enhanced user experience with smooth animations and modal transitions using Motion (Framer Motion) while maintaining scalable modular feature-based project structure",
+        "Integrated frontend services with backend APIs using Axios and TanStack React Query for efficient server-state management, caching, and error handling"
+      ]
+    },
+    {
+      "title": "WorkRaze — Job Aggregation Platform",
+      "description": "A complete frontend for a job aggregation platform enabling users to efficiently browse opportunities by role, company, and location — with smooth animations and secure authentication flows.",
+      "stack": ["React.js", "TypeScript", "Tailwind CSS", "Context API", "Framer Motion"],
+      "link": "",
+      "live": "",
+      "highlights": [
+        "Designed and developed the complete frontend architecture using React.js, TypeScript, Tailwind CSS, and shadcn/ui ensuring a scalable, reusable, and component-driven structure",
+        "Built responsive and user-friendly interfaces for job listings, advanced search, and filtering systems by role, company, and location",
+        "Integrated frontend with backend REST APIs handling asynchronous data fetching, loading states, caching, and error management for seamless user experience",
+        "Managed global application state using Context API for user authentication, session persistence, and application-wide data handling with protected routes",
+        "Implemented smooth animations, interactive UI transitions, and responsive layouts using Framer Motion and modern frontend optimization techniques"
+      ]
+    }
+  ]
+}
