@@ -1,5 +1,11 @@
 {
   "installCommand": "cd client && npm install",
+  "installCommand": "cd server && npm install && cd ../client && npm install",
   "buildCommand": "cd client && npm run build",
-  "outputDirectory": "client/dist"
+  "outputDirectory": "client/dist",
+  "functions": {
+    "api/[...path].js": {
+      "includeFiles": "server/data/**"
+    }
+  }
 }
