@@ -1,3 +1,15 @@
 node_modules/
 .env
+.env.*
 data/
+
+# Local credentials and private key material
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+!client/.env.example
+!server/.env.example
