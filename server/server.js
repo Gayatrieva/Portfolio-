@@ -28,10 +28,15 @@ app.use(
         return callback(null, true);
       }
 
-      // Allow explicitly listed origins from .env CLIENT_ORIGIN
-      const allowed = (process.env.CLIENT_ORIGIN || "")
-        .split(",")
-        .map((s) => s.trim());
+      // Allow explicitly listed origins and the current Vercel deployment.
+      const allowed = [
+        ...(process.env.CLIENT_ORIGIN || "")
+          .split(",")
+          .map((s) => s.trim())
+          .filter(Boolean),
+        "https://gayatri-portfolio-taupe.vercel.app",
+        process.env.VERCEL_URL && `https://${process.env.VERCEL_URL}`,
+      ].filter(Boolean);
       if (allowed.includes(origin)) return callback(null, true);
 
       callback(new Error("Not allowed by CORS"));
